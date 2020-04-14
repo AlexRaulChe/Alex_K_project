@@ -51,15 +51,15 @@ h1 {
 }
 .first_slogan {
     position: relative;
-    margin-top: 292px;
-    margin-left: 100px;
+    margin-top: 15%;
+    margin-left: 5.2%;
     text-transform: uppercase;
     z-index: 2;
 }
 .second_slogan {
     position: relative;
-    margin-left: 640px;
-    margin-bottom: 222px;
+    margin-left: 33.3%;
+    margin-bottom: 11.5%;
     text-transform: uppercase;
     z-index: 2;
 }
@@ -118,13 +118,13 @@ h1 {
         letter-spacing: 1px;
     }
     .first_slogan {
-        margin-top: 135px;
-        margin-left: 20px;
+        margin-top: 42%;
+        margin-left: 6.25%;
     }
     .second_slogan {
-        margin-top: 20px;
-        margin-left: 63px;
-        margin-bottom: 90px;
+        margin-top: 6.25%;
+        margin-left: 20%;
+        margin-bottom: 28%;
     }
     .buttons {
         flex-wrap: wrap;
@@ -160,13 +160,13 @@ h1 {
         letter-spacing: 3px;
     }
     .first_slogan {
-        margin-top: 178px;
-        margin-left: 90px;
+        margin-top: 9.3%;
+        margin-left: 11.7%;
     }
     .second_slogan {
-        margin-top: 20px;
-        margin-left: 195px;
-        margin-bottom: 310px;
+        margin-top: 2.6%;
+        margin-left: 25.4%;
+        margin-bottom: 40.4%;
     }
     .buttons {
         flex-wrap: wrap;
@@ -230,9 +230,10 @@ h1 {
 }
 .athlets_articles {
     display: block;
+
 }
 .athlets_article {
-    padding: 2.9% 0;
+    padding: 2.9% 10% 2.9% 48%;
 }
 .athlets_article:nth-child(2) {
     background-color: #f5f4f9;
@@ -243,8 +244,6 @@ h1 {
 .athlets_title {
     display: flex;
     justify-content: flex-start;
-    padding-left: 48%;
-    padding-right: 10%;
 }
 .athlets_header {
     font-size: 2.25rem;
@@ -261,8 +260,6 @@ h1 {
     font-family: 'OpenSans-Regular';
     font-weight: 400;
     padding-top: 1%;
-    padding-left: 48%;
-    padding-right: 10%;
 }
 .athlets_text_white {
     font-size: 1.25rem;
@@ -271,8 +268,6 @@ h1 {
     font-family: 'OpenSans-Regular';
     font-weight: 400;
     padding-top: 1%;
-    padding-left: 48%;
-    padding-right: 10%;
 }
 .athlets_number, .athlets_number_white {
     font-size: 1.3125rem;
@@ -326,7 +321,7 @@ h1 {
     padding-left: 9.4%;
 }
 .players_article {
-    padding: 2.9% 0;
+    padding: 2.9% 50.5% 2.9% 9.4%;
 }
 .players_article:nth-child(2) {
     background-color: #f5f4f9;
@@ -337,8 +332,6 @@ h1 {
 .players_title {
     display: flex;
     justify-content: flex-start;
-    padding-left: 9.4%;
-    padding-right: 50.5%;
 }
 .players_header {
     font-size: 2.25rem;
@@ -355,8 +348,6 @@ h1 {
     font-family: 'OpenSans-Regular';
     font-weight: 400;
     padding-top: 1%;
-    padding-left: 9.4%;
-    padding-right: 50.5%;
 }
 .players_text_white {
     font-size: 1.25rem;
@@ -365,8 +356,6 @@ h1 {
     font-family: 'OpenSans-Regular';
     font-weight: 400;
     padding-top: 1%;
-    padding-left: 9.4%;
-    padding-right: 50.5%;
 }
 .players_number {
     font-size: 1.3125rem;
@@ -429,12 +418,8 @@ h1 {
         padding-left: 6.25%;
     }
     .athlets_article, .players_article {
-        padding: 18.75% 0;
+        padding: 18.75% 11% 18.75% 6.25%;
         background-color: #fafafa;
-    }
-    .athlets_title, .players_title{
-        padding-left: 6.25%;
-        padding-right: 11%;
     }
     .athlets_header, .players_header {
         font-size: 1.4375rem;
@@ -444,8 +429,6 @@ h1 {
         font-size: 0.9375rem;
         letter-spacing: 1px;
         padding-top: 6.25%;
-        padding-left: 6.25%;
-        padding-right: 11%;
     }
     .athlets_number, .athlets_number_white, .players_number, .players_number_white {
         font-size: 0.875rem;
@@ -506,12 +489,8 @@ h1 {
         padding-left: 37.7%;
         padding-bottom: 0;
     }
-    .athlets_article, .players_article {
-        padding: 4.5% 0;
-    }
-    .athlets_title {
-        padding-left: 38.4%;
-        padding-right: 3.25%;
+    .athlets_article {
+        padding: 4.5% 3.25% 4.5% 38.4%;
     }
     .athlets_header, .players_header {
         font-size: 2rem;
@@ -519,8 +498,6 @@ h1 {
     .athlets_text, .athlets_text_white {
         font-size: 1rem;
         line-height: 27px;
-        padding-left: 38.4%;
-        padding-right: 3.25%;
     }
     .athlets_number, .athlets_number_white, .players_number, .players_number_white {
         font-size: 1.125rem;
@@ -543,14 +520,20 @@ h1 {
         padding-left: 4%;
         padding-bottom: 0;
     }
-    .players_title {
-        padding-left: 4%;
-        padding-right: 40%;
+    .players_article {
+        padding: 4.5% 40% 4.5% 4%;
     }
+
     .players_text, .players_text_white {
         font-size: 1rem;
         line-height: 27px;
-        padding-left: 4%;
-        padding-right: 40%;
+    }
+}
+@media (min-width: 321px) and (max-width: 600px) {
+    .subtitle_athlets {
+        font-size: 2.5rem;
+    }
+    .subtitle_players {
+        font-size: 2.5rem;
     }
 }
