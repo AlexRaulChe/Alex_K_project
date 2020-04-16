@@ -25,12 +25,12 @@
 <h1 class="first_slogan">Be recruited</h1>
 <h1 class="second_slogan">Play college sports</h1>
     </div>
-    <div class="buttons">
+    <form class="buttons">
         <button class="appstore_button" type="submit"><span class="button_text">Download on the</span><br>
             <span class="button_brand">App Store</span></button>
         <button class="googleplay_button" type="submit"><span class="button_text">Get it on</span><br>
             <span class="button_brand"> Google Play</span></button>
-    </div>
+    </form>
 </header>
 <main>
     <section class="container_athlets">
@@ -38,17 +38,17 @@
         <div class="athlets_articles">
         <article class="athlets_article">
             <div class="athlets_title"><span class="athlets_number"><sub>01</sub></span>
-            <h3 class="athlets_header">Connection</h3></div>
+                <h3 class="athlets_header"><a href="#">Connection</a></h3></div>
             <p class="athlets_text">Connect with coaches directly, you can ping coaches to view profile.</p>
         </article>
         <article class="athlets_article">
             <div class="athlets_title"><span class="athlets_number"><sub>02</sub></span>
-            <h3 class="athlets_header">Collaboration</h3></div>
+                <h3 class="athlets_header"><a href="#">Collaboration</a></h3></div>
             <p class="athlets_text">Work with other student athlets to increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.</p>
         </article>
         <article class="athlets_article">
             <div class="athlets_title"><span class="athlets_number_white"><sub>03</sub></span>
-            <h3 class="athlets_header">Growth</h3></div>
+                <h3 class="athlets_header"><a href="#">Growth</a></h3></div>
             <p class="athlets_text_white">Resources and tools for you to get better as a student Athlete. Access to training classes, tutor sessions, etc.</p>
         </article>
         </div>
@@ -58,21 +58,61 @@
         <div class="players_articles">
         <article class="players_article">
             <div class="players_title"><span class="players_number"><sub>01</sub></span>
-            <h3 class="players_header">Connection</h3></div>
+                <h3 class="players_header"><a href="#">Connection</a></h3></div>
             <p class="players_text">Connect with talented athlete directly, you can watch their skills through video showreels directly from Surface 1.</p>
         </article>
         <article class="players_article">
             <div class="players_title"><span class="players_number"><sub>02</sub></span>
-            <h3 class="players_header">Collaboration</h3></div>
+                <h3 class="players_header"><a href="#">Collaboration</a></h3></div>
             <p class="players_text">Work with recruiter to increase your chances of finding talented athlete.</p>
         </article>
         <article class="players_article">
             <div class="players_title"><span class="players_number_white"><sub>03</sub></span>
-            <h3 class="players_header">Growth</h3></div>
+                <h3 class="players_header"><a href="#">Growth</a></h3></div>
             <p class="players_text_white">Save your time to recruit proper athlets for your team.</p>
         </article>
         </div>
     </section>
+    <aside class="container_links">
+        <div class="sport_links">
+            <section class="sport_link">
+                <picture class="photo">
+                    <source srcset="images/be-active.jpg 1x, images/be-active.jpg 2x,images/be-active.jpg 3x" alt="sport_injury" media="(max-width: 320px)">
+                    <source srcset="images/be-active_640.jpg 1x, images/be-active_640.jpg 2x,images/be-active_640.jpg 3x" alt="sport_injury" media="(min-width: 321px) and (max-width: 768px)">
+                    <source srcset="images/be-active_960.jpg 1x, images/be-active_960.jpg 2x,images/be-active_960.jpg 3x" alt="sport_injury" media="(min-width: 769px) and (max-width: 960px)">
+                    <source srcset="images/be-active_1024.jpg 1x, images/be-active_1024.jpg 2x,images/be-active_1024.jpg 3x" alt="sport_injury" media="(min-width: 961px)">
+                    <img src="images/be-active_1024.jpg" width="100%"  srcset="images/be-active_1024.jpg 1x, images/be-active_1024.jpg 2x,images/be-active_1024.jpg 3x" alt="sport_injury">
+                </picture>
+                <div class="sport_title"><span class="sport_number">01</span>
+                    <h3 class="sport_header"><a href="#">Be active</a></h3></div>
+                <p class="sport_text">Post videos with your skills, like and follow others to be more popular.</p>
+            </section>
+            <section class="sport_link_reverse">
+                <picture class="photo">
+                    <source srcset="images/find-contact.jpg 1x, images/find-contact.jpg 2x,images/find-contact.jpg 3x" alt="sport_coach" media="(max-width: 320px)">
+                    <source srcset="images/find-contact_640.jpg 1x, images/find-contact_640.jpg 2x,images/find-contact_640.jpg 3x" alt="sport_coach" media="(min-width: 321px) and (max-width: 768px)">
+                    <source srcset="images/find-contact_960.jpg 1x, images/find-contact_960.jpg 2x,images/find-contact_960.jpg 3x" alt="sport_coach" media="(min-width: 769px) and (max-width: 960px)">
+                    <source srcset="images/find-contact_1024.jpg 1x, images/find-contact_1024.jpg 2x,images/find-contact_1024.jpg 3x" alt="sport_coach" media="(min-width: 961px)">
+                    <img src="images/find-contact_1024.jpg" width="100%" srcset="images/find-contact_1024.jpg 1x, images/find-contact_1024.jpg 2x,images/find-contact_1024.jpg 3x" alt="sport_coach">
+                </picture>
+                <div class="sport_title"><span class="sport_number">02</span>
+                    <h3 class="sport_header"><a href="#">Find contact</a></h3></div>
+                <p class="sport_text">Contact others to find right coach or athlete you are looking for.</p>
+            </section>
+            <section class="sport_link">
+                <picture class="photo">
+                    <source srcset="images/work-it.jpg 1x, images/work-it.jpg 2x,images/work-it.jpg 3x" alt="sport_team" media="(max-width: 320px)">
+                    <source srcset="images/work-it_640.jpg 1x, images/work-it_640.jpg 2x,images/work-it_640.jpg 3x" alt="sport_team" media="(min-width: 321px) and (max-width: 768px)">
+                    <source srcset="images/work-it_960.jpg 1x, images/work-it_960.jpg 2x,images/work-it_960.jpg 3x" alt="sport_team" media="(min-width: 769px) and (max-width: 960px)">
+                    <source srcset="images/work-it_1024.jpg 1x, images/work-it_1024.jpg 2x,images/work-it_1024.jpg 3x" alt="sport_team" media="(min-width: 961px)">
+                    <img src="images/work-it_1024.jpg" width="100%" srcset="images/work-it_1024.jpg 1x, images/work-it_1024.jpg 2x,images/work-it_1024.jpg 3x" alt="sport_team">
+                </picture>
+                <div class="sport_title"><span class="sport_number">03</span>
+                    <h3 class="sport_header"><a href="#">Work it</a></h3></div>
+                <p class="sport_text">Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.</p>
+            </section>
+        </div>
+    </aside>
 </main>
 
 
