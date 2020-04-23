@@ -51,7 +51,7 @@ h1 {
     font-size: calc(3.875vw + 16px);
     letter-spacing: 5px;
     color: #ffffff;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
 }
 
@@ -102,12 +102,12 @@ h1 {
     margin-right: 25px;
 }
 .button_text {
-     font-family: 'OpenSans-Regular';
+     font-family: 'OpenSans-Regular', sans-serif;;
      font-weight: 400;
  }
 .button_brand {
     text-align: left;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
 }
 
@@ -231,7 +231,7 @@ h1 {
 .subtitle_athlets {
     font-size: 5rem;
     color: #e7e7e7;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 5.7%;
@@ -259,7 +259,7 @@ h1 {
     font-size: 2.25rem;
     letter-spacing: 2px;
     color: #c1c1c1;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -267,7 +267,7 @@ h1 {
     font-size: 1.25rem;
     letter-spacing: 1px;
     color: #000000;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Regular', sans-serif;;
     font-weight: 400;
     padding-top: 1%;
 }
@@ -275,7 +275,7 @@ h1 {
     font-size: 1.25rem;
     letter-spacing: 1px;
     color: #efefef;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Regular', sans-serif;;
     font-weight: 400;
     padding-top: 1%;
 }
@@ -283,7 +283,7 @@ h1 {
     font-size: 1.3125rem;
     letter-spacing: 1px;
     color: #000000;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-align: center;
     padding-right: 0.5%;
@@ -323,7 +323,7 @@ h1 {
 .subtitle_players {
     font-size: 5rem;
     color: #e7e7e7;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 5.7%;
@@ -347,7 +347,7 @@ h1 {
     font-size: 2.25rem;
     letter-spacing: 2px;
     color: #c1c1c1;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -355,7 +355,7 @@ h1 {
     font-size: 1.25rem;
     letter-spacing: 1px;
     color: #000000;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Regular', sans-serif;;
     font-weight: 400;
     padding-top: 1%;
 }
@@ -363,7 +363,7 @@ h1 {
     font-size: 1.25rem;
     letter-spacing: 1px;
     color: #efefef;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Regular', sans-serif;;
     font-weight: 400;
     padding-top: 1%;
 }
@@ -371,7 +371,7 @@ h1 {
     font-size: 1.3125rem;
     letter-spacing: 1px;
     color: #000000;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-align: center;
     padding-right: 0.5%;
@@ -380,7 +380,7 @@ h1 {
     font-size: 1.3125rem;
     letter-spacing: 1px;
     color: #9173e6;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-align: center;
     padding-right: 0.5%;
@@ -571,7 +571,7 @@ h1 {
     font-size: 1.5rem;
     letter-spacing: 1px;
     color: #f5f6f7;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -617,7 +617,7 @@ h1 {
     font-size: 5rem;
     letter-spacing: 2px;
     color: #c1c1c1;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 24%;
@@ -627,7 +627,7 @@ h1 {
     letter-spacing: 1px;
     line-height: 28px;
     color: #000000;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Regular', sans-serif;;
     font-weight: 400;
 }
 .sport_header1 {
@@ -869,7 +869,7 @@ h1 {
         font-size: 3rem;
         letter-spacing: 2px;
         color: #c1c1c1;
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans-Bold', sans-serif;;
         font-weight: 700;
         text-transform: uppercase;
         margin-top: 24%;
@@ -879,7 +879,7 @@ h1 {
         letter-spacing: 1px;
         line-height: 28px;
         color: #000000;
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans-Regular', sans-serif;;
         font-weight: 400;
     }
     .sport_header2 {
@@ -940,7 +940,7 @@ h1 {
     font-size: calc(3vw + 22.4px);
     letter-spacing: 4px;
     color: #ffffff;
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-Bold', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
     z-index: 1;
@@ -949,7 +949,7 @@ h1 {
     position: relative;
     font-size: calc(1vw + 10.8px);
     color: #a496ca;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Regular', sans-serif;;
     font-weight: 400;
     text-transform: uppercase;
     z-index: 1;
