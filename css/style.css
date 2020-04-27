@@ -151,7 +151,7 @@ h1 {
         margin-bottom: 82px;
     }
 }
-@media (min-width: 321px) and (max-width: 375px){
+@media (min-width: 321px) and (max-width: 640px){
     .header {
         background-image: url("../images/football_767.jpg");
     }
@@ -191,7 +191,7 @@ h1 {
         margin-bottom: 82px;
     }
 }
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
     .header {
         background-image: url("../images/football_1280.jpg");
     }
@@ -225,19 +225,14 @@ h1 {
         margin-left: 15px;
     }
 }
-@media (min-width: 321px) and (max-width: 648px) {
-
-    .appstore_button {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    .googleplay_button {
-        margin-left: 0;
-    }
-}
-@media (min-width: 769px) and (max-width: 1600px){
+@media (min-width: 769px) and (max-width: 960px){
     .second_slogan {
         margin-left: 195px;
+    }
+}
+@media (min-width: 961px) and (max-width: 1024px){
+    .second_slogan {
+        margin-left: 295px;
     }
 }
 
@@ -493,7 +488,7 @@ h1 {
         z-index: 1;
     }
 }
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 640px) {
 
     .container_athlets::before {
         content: "";
@@ -558,7 +553,7 @@ h1 {
         z-index: 1;
     }
 }
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
 
     .container_athlets::before {
         position: absolute;
@@ -616,14 +611,6 @@ h1 {
     .players_text, .players_text_white {
         font-size: 1rem;
         line-height: 25px;
-    }
-}
-@media (min-width: 321px) and (max-width: 600px) {
-    .subtitle_athlets {
-        font-size: 2.5rem;
-    }
-    .subtitle_players {
-        font-size: 2.5rem;
     }
 }
 @media (min-width: 769px) and (max-width: 960px) {
@@ -685,12 +672,63 @@ h1 {
         line-height: 25px;
     }
 }
-@media (min-width: 321px) and (max-width: 600px) {
+@media (min-width: 961px) and (max-width: 1024px) {
+    .container_athlets::before {
+        position: absolute;
+        content: "";
+        background-image: url("../images/footballer_497.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        width: 68%;
+        height: 100%;
+        margin-top: 65px;
+        margin-left: -355px;
+        z-index: 1;
+    }
     .subtitle_athlets {
-        font-size: 2.5rem;
+        font-size: 5rem;
+        padding-top: 75px;
+        padding-left: 295px;
+        padding-bottom: 0;
+    }
+    .athlets_article {
+        padding: 55px 30px 55px 295px;
+    }
+    .athlets_header, .players_header {
+        font-size: 2rem;
+    }
+    .athlets_text, .athlets_text_white {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .athlets_number, .athlets_number_white, .players_number, .players_number_white {
+        font-size: 1.13rem;
+    }
+    .container_players::before {
+        position: absolute;
+        content: "";
+        background-image: url("../images/basketballer_436.png");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        width: 56%;
+        height: 100%;
+        margin-top: 25px;
+        margin-left: 470px;
+        z-index: 1;
     }
     .subtitle_players {
-        font-size: 2.5rem;
+        font-size: 5rem;
+        padding-top: 85px;
+        padding-left: 30px;
+        padding-bottom: 0;
+    }
+    .players_article {
+        padding: 35px 305px 35px 30px;
+    }
+
+    .players_text, .players_text_white {
+        font-size: 1rem;
+        line-height: 25px;
     }
 }
 .container-links {
@@ -862,7 +900,7 @@ h1 {
         margin-bottom: 80px;
     }
 }
-@media (min-width: 321px) and (max-width: 375px) {
+@media (min-width: 321px) and (max-width: 640px) {
 
     .sport_link, .sport_link_reverse {
         display: block;
@@ -924,7 +962,7 @@ h1 {
         margin-bottom: 80px;
     }
 }
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
 
     .sport_link, .sport_link_reverse {
         display: block;
@@ -960,6 +998,66 @@ h1 {
         height: 116px;
         background-color: #5e42b0;
         top: 420px;
+        left: 32px;
+        z-index: 2;
+    }
+    .sport_number1::before {
+        content:"01";
+    }
+    .sport_number2::before {
+        content:"02";
+    }
+    .sport_number3::before {
+        content:"03";
+    }
+    .sport_header1, .sport_header2, .sport_header3 {
+        font-size: 5rem;
+        margin-top: 60px;
+        margin-left: 32px;
+        margin-bottom: 25px;
+    }
+    .sport_text1, .sport_text2, .sport_text3 {
+        font-size: 1.5rem;
+        margin-left: 32px;
+        margin-bottom: 95px;
+    }
+}
+@media (min-width: 961px) and (max-width: 1024px) {
+
+    .sport_link, .sport_link_reverse {
+        display: block;
+        position: relative;
+    }
+    .photo {
+        width: 100%;
+    }
+    .text {
+        width: 100%;
+    }
+    .sport_number1::after, .sport_number2::after, .sport_number3::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        top: 400px;
+        left: 79px;
+        opacity: 0.5;
+        z-index: 2;
+    }
+    .sport_number1::before, .sport_number2::before, .sport_number3::before {
+        content:"01";
+        font-size: 1rem;
+        text-align: center;
+        line-height: 116px;
+        position: absolute;
+        display: block;
+        width: 116px;
+        height: 116px;
+        background-color: #5e42b0;
+        top: 525px;
         left: 32px;
         z-index: 2;
     }
@@ -1044,7 +1142,6 @@ h1 {
         margin-bottom: 95px;
     }
 }
-
 .footer {
     width: 100%;
     position: relative;
@@ -1183,7 +1280,7 @@ h1 {
         margin-bottom: 82px;
     }
 }
-@media (min-width: 321px) and (max-width: 375px) {
+@media (min-width: 321px) and (max-width: 640px) {
     .footer {
         background-image: url("../images/game_767.jpg");
     }
@@ -1227,7 +1324,7 @@ h1 {
         margin-bottom: 82px;
     }
 }
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
     .footer {
         background-image: url("../images/game_767.jpg");
     }
@@ -1264,17 +1361,18 @@ h1 {
         margin-bottom: 55px;
     }
 }
-@media (min-width: 321px) and (max-width: 648px) {
-
-    .appstore_button_footer {
-        margin-right: 0;
-        margin-bottom: 20px;
+@media (min-width: 769px) and (max-width: 960px) {
+    .action_footer {
+        margin-left: 302px;
+        margin-top: 80px;
     }
-    .googleplay_button_footer {
-        margin-left: 0;
+    .logo_sign {
+        background-size: 100px;
+        left: 200px;
+        top: 230px;
     }
 }
-@media (min-width: 769px) and (max-width: 960px) {
+@media (min-width: 961px) and (max-width: 1024px) {
     .action_footer {
         margin-left: 302px;
         margin-top: 80px;
